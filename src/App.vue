@@ -1,12 +1,15 @@
-<template></template>
+<template>
+  <MapBox></MapBox>
+</template>
 
 <script setup>
-import { onMounted } from "@vue/runtime-core";
-import jiananMap from "./lib/map.js";
+import MapBox from "./components/MapBox.vue";
+// import { onMounted } from "@vue/runtime-core";
+// import jiananMap from "./lib/map.js";
 
-onMounted(() => {
-  new jiananMap().init();
-});
+// onMounted(() => {
+//   new jiananMap().init();
+// });
 
 // This starter template is using Vue 3 experimental <script setup> SFCs
 // Check out https://github.com/vuejs/rfcs/blob/script-setup-2/active-rfcs/0000-script-setup.md

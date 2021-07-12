@@ -21,8 +21,8 @@ class jiananMap {
     let light2 = new THREE.PointLight(0xfafafa, 0.6);
 
     this.scene.add(light0);
-    this.scene.add(light1);
-    this.scene.add(light2);
+    // this.scene.add(light1);
+    // this.scene.add(light2);
 
     this.renderer = new THREE.WebGLRenderer();
     this.renderer.setPixelRatio(window.devicePixelRatio);
